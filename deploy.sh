@@ -1,4 +1,4 @@
-npm install build
+vuepress build ablog
 
 cd public
 
