@@ -80,12 +80,19 @@ module.exports = {
     },
     "friendLink": [
       {
+        "title":"JavaGuide",
+        "desc": "「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！",
+        "link": "https://javaguide.cn/",
+        "logo": "https://javaguide.cn/logo.svg",
+      },
+      {
         "title":"赞赏组件",
         "desc": "本博客使用的赞赏组件vuepress-plugin-sponsor。",
         "link": "https://github.com/yokefellow/vuepress-plugin-sponsor/"
-      }
+      },
+
     ],
-    "logo": "/avatar.jpeg",
+    "logo": "/logo.ico",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "最近一次更新",
