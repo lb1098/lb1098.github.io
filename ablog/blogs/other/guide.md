@@ -1,6 +1,6 @@
 ---
-title: vuepress-theme-reco
-date: 2019-04-09
+title: vuepress-theme-reco 的主题教程
+date: 2023-01-01
 ---
 
 ![vuepress](https://img.shields.io/badge/vuepress-0.14.8-brightgreen.svg)

@@ -58,19 +58,11 @@ module.exports = {
           title: '目录',
           children:[
             {
-              title: 'API',
-              path: 'api'
+              title: '测试',
+              path: 'test'
             },
-            'theme',
-            'plugin'
           ]
         },
-      ],
-      '/docs/javaguide2/': [
-        '',
-        ['api', 'API'],
-        'theme',
-        'plugin'
       ],
     },
     "type": "blog",
@@ -111,6 +103,11 @@ module.exports = {
     // 备案
     record: 'ICP 备案文案',
     recordLink: 'ICP 备案指向链接',
+
+    repo: "https://github.com/lb1098/lb1098.github.io/tree/blogcode/",
+    // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
+    // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
+    repoLabel: '查看源码',
     // cyberSecurityRecord: '公安部备案文案',
     // cyberSecurityLink: '公安部备案指向链接',
     // 项目开始时间，只填写年份
