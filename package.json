@@ -1,0 +1,17 @@
+{
+  "name": "ablog",
+  "version": "1.0.0",
+  "author": "abin",
+  "scripts": {
+    "dev": "vuepress dev ablog",
+    "build": "vuepress build ablog"
+  },
+  "description": "",
+  "dependencies": {
+    "build": "^0.1.4",
+    "vuepress": "1.9.7",
+    "vuepress-plugin-ribbon": "^1.1.6",
+    "vuepress-plugin-sponsor": "^1.0.0",
+    "vuepress-theme-reco": "1.6.16"
+  }
+}
