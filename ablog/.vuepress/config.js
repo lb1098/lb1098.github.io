@@ -39,10 +39,6 @@ module.exports = {
             "text": "教程",
             "link": "/docs/javaguide/"
           },
-          {
-            "text": "教程2",
-            "link": "/docs/javaguide2/"
-          },
         ]
       },
       {
@@ -57,10 +53,10 @@ module.exports = {
         {
           title: '目录',
           children:[
-            {
-              title: '测试',
-              path: 'test'
-            },
+            // {
+            //   title: '测试',
+            //   path: 'test'
+            // },
           ]
         },
       ],
@@ -88,11 +84,16 @@ module.exports = {
         "link": "https://www.recoluan.com"
       },
       {
-        "title": "vuepress-theme-reco",
-        "desc": "A simple and beautiful vuepress Blog & Doc theme.",
-        "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        "link": "https://vuepress-theme-reco.recoluan.com"
+        "title":"赞赏组件",
+        "desc": "本博客使用的赞赏组件vuepress-plugin-sponsor。",
+        "link": "https://github.com/yokefellow/vuepress-plugin-sponsor/"
       }
+      // {
+      //   "title": "vuepress-theme-reco",
+      //   "desc": "A simple and beautiful vuepress Blog & Doc theme.",
+      //   "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+      //   "link": "https://vuepress-theme-reco.recoluan.com"
+      // }
     ],
     "logo": "/logo.png",
     "search": true,
@@ -101,18 +102,18 @@ module.exports = {
     "author": "ABin",
     "authorAvatar": "/avatar.png",
     // 备案
-    record: 'ICP 备案文案',
-    recordLink: 'ICP 备案指向链接',
+    // record: 'ICP 备案文案',
+    // recordLink: 'ICP 备案指向链接',
 
-    repo: "https://github.com/lb1098/lb1098.github.io/tree/blogcode/",
     // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
     // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
-    repoLabel: '查看源码',
+    // repo: "https://github.com/lb1098/lb1098.github.io/tree/blogcode/",
+    // repoLabel: '查看源码',
 
     // 以下为可选的编辑链接选项
 
     // 假如你的文档仓库和项目本身不在一个仓库：
-    docsRepo: 'ablog/vuepress',
+    docsRepo: 'lb1098/lb1098.github.io',
     // 假如文档不是放在仓库的根目录下：
     docsDir: 'ablog',
     // 假如文档放在一个特定的分支下：
