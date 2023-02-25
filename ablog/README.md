@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: ABin's Blog
+tagline: 开发的小小杂货铺
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',

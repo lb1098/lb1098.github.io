@@ -1,6 +1,6 @@
 module.exports = {
-  "title": "Ablog",
-  "description": "",
+  "title": "ABin博客",
+  "description": "这是我的个人博客",
   "dest": "public",
   "head": [
     [
@@ -72,35 +72,25 @@ module.exports = {
         "text": "标签"
       },
       "socialLinks": [     // 信息栏展示社交信息
-        {"icon": 'reco-github', "link": 'https://github.com/recoluan'},
-        {"icon": 'reco-npm', "link": 'https://www.npmjs.com/~reco_luan'}
+        {"icon": 'reco-qq', "link": 'socialLinks/qq.jpg'},
+        {"icon": 'reco-github', "link": 'https://github.com/lb1098'},
+        {"icon": 'reco-mayun', "link": 'https://gitee.com/lb1098'},
+        {"icon": 'reco-api', "link": 'https://leetcode.cn/u/glb2023/',"text": '力扣'},
       ]
     },
     "friendLink": [
-      {
-        "title": "午后南杂",
-        "desc": "Enjoy when you can, and endure when you must.",
-        "email": "1156743527@qq.com",
-        "link": "https://www.recoluan.com"
-      },
       {
         "title":"赞赏组件",
         "desc": "本博客使用的赞赏组件vuepress-plugin-sponsor。",
         "link": "https://github.com/yokefellow/vuepress-plugin-sponsor/"
       }
-      // {
-      //   "title": "vuepress-theme-reco",
-      //   "desc": "A simple and beautiful vuepress Blog & Doc theme.",
-      //   "avatar": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-      //   "link": "https://vuepress-theme-reco.recoluan.com"
-      // }
     ],
-    "logo": "/logo.png",
+    "logo": "/avatar.jpeg",
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "最近一次更新",
     "author": "ABin",
-    "authorAvatar": "/avatar.png",
+    "authorAvatar": "/avatar.jpeg",
     // 备案
     // record: 'ICP 备案文案',
     // recordLink: 'ICP 备案指向链接',
@@ -121,7 +111,7 @@ module.exports = {
     // 默认是 false, 设置为 true 来启用
     editLinks: true,
     // 默认为 "Edit this page"
-    editLinkText: '帮助我们改善此页面！',
+    editLinkText: '编辑此页',
     // cyberSecurityRecord: '公安部备案文案',
     // cyberSecurityLink: '公安部备案指向链接',
     // 项目开始时间，只填写年份
