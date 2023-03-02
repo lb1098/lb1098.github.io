@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/blogcode.iml" filepath="$PROJECT_DIR$/.idea/blogcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/WebstormSpace.iml" filepath="$PROJECT_DIR$/.idea/WebstormSpace.iml" />
     </modules>
   </component>
 </project>
